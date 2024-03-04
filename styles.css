@@ -39,16 +39,23 @@ aside {
 
 article {
     padding: 30px;
-    border: 2px solid black;
  }
 
 h2 {
     font-weight: 500;
     margin-top: 0;
+    letter-spacing: 6px;
+    font-size: 14px;
 }
 
 h1 {
     color: hsl(212, 21%, 14%);   
+    font-size: 35px;
+}
+
+p {
+    line-height: 27px;
+    font-size: 14px;
 }
 
 button {
