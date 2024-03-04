@@ -38,7 +38,7 @@ aside {
 /* Article/Info */
 
 article {
-    padding: 40px;
+    padding: 30px;
  }
 
 h2 {
@@ -52,6 +52,7 @@ h1 {
     color: hsl(212, 21%, 14%);   
     font-size: 35px;
     line-height: 37px;
+    font-weight: 650;
 }
 
 p {
