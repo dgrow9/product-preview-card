@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
 * {
-    background-color: hsl(30, 38%, 92%);
+    
 }
 
 body {
@@ -8,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
 }
 
 main {
@@ -28,4 +32,40 @@ aside {
 #left img {
     height: 100%;
     border-radius: 13px 0 0 13px;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%)
+}
+
+h2, p, #old-price {
+    color: hsl(228, 12%, 48%);
+}
+
+p, h2, #old-price, button {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+#new-price {
+    color: hsl(158, 36%, 37%);
+}
+
+h1, #new-price {
+    font-family: "Fraunces", serif;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
 }
