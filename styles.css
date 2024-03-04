@@ -52,10 +52,11 @@ h2 {
 h1 {
     color: hsl(212, 21%, 14%);   
     font-size: 35px;
+    line-height: 37px;
 }
 
 p {
-    line-height: 27px;
+    line-height: 25px;
     font-size: 14px;
 }
 
