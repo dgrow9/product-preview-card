@@ -39,6 +39,7 @@ aside {
 
 article {
     padding: 30px;
+    border: 2px solid black;
  }
 
 h2 {
@@ -55,6 +56,10 @@ button {
     color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 5px;
+    width: 285px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 h2, h1, p, #price {
