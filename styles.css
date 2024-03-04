@@ -58,6 +58,12 @@ p {
     font-size: 14px;
 }
 
+#new-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-weight: 600;
+}
+
 button {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
@@ -69,6 +75,11 @@ button {
     font-weight: 500;
 }
 
+button:hover {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+
 h2, h1, p, #price {
     margin-bottom: 30px;
 }
@@ -77,21 +88,10 @@ h1, #new-price {
     font-family: "Fraunces", serif;
 }
 
-h2, p, #old-price {
-    color: hsl(228, 12%, 48%);
-}
-
 p, h2, #old-price, button {
     font-family: "Montserrat", sans-serif;
 }
 
-#new-price {
-    color: hsl(158, 36%, 37%);
-    font-size: 35px;
-    font-weight: 600;
-}
-
-button:hover {
-    background-color: hsl(158, 36%, 20%);
-    cursor: pointer;
+h2, p, #old-price {
+    color: hsl(228, 12%, 48%);
 }
