@@ -43,10 +43,22 @@ article {
 
 h2 {
     font-weight: 500;
+    margin-top: 0;
 }
 
 h1 {
-    color: hsl(212, 21%, 14%)
+    color: hsl(212, 21%, 14%);   
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
+
+h2, h1, p, #price {
+    margin-bottom: 30px;
 }
 
 h1, #new-price {
@@ -63,13 +75,6 @@ p, h2, #old-price, button {
 
 #new-price {
     color: hsl(158, 36%, 37%);
-}
-
-button {
-    background-color: hsl(158, 36%, 37%);
-    color: hsl(0, 0%, 100%);
-    border: none;
-    border-radius: 5px;
 }
 
 button:hover {
