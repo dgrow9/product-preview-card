@@ -80,6 +80,8 @@ p, h2, #old-price, button {
 
 #new-price {
     color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-weight: 600;
 }
 
 button:hover {
