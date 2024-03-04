@@ -111,3 +111,18 @@ h2, p, #old-price {
 #new-price, button img {
     margin-right: 12px;
 }
+
+
+/* Mobile Version */
+
+@media screen and (max-width: 375px) {
+   
+    main {
+        width: 320px;
+    }
+
+    #left img {
+        width: 300px;
+        height: auto;
+    }
+}
