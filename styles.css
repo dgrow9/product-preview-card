@@ -149,4 +149,8 @@ h2, p, #old-price {
     h2, h1, p, #price {
         margin-bottom: 15px;
     }
+
+    h2, #price {
+        align-self: flex-start;
+    }
 }
