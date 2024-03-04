@@ -119,10 +119,15 @@ h2, p, #old-price {
    
     main {
         width: 320px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     }
 
     #left img {
-        width: 300px;
+        width: 320px;
         height: auto;
+        border-radius: 13px 13px 0 0;
     }
 }
