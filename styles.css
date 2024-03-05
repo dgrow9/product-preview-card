@@ -115,7 +115,7 @@ h2, p, #old-price {
 
 /* Mobile Version */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
     main {
         width: 330px;
